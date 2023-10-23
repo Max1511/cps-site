@@ -176,19 +176,19 @@ body {
     list-style-type: none;
 }
 
-.navigation__paragraph {
+.navigation__paragraph, .navigation__paragraph_active {
     padding: 5px 10px;
     border-radius: 10%;
     white-space: nowrap;
 }
 
-.navigation__paragraph:hover {
-    background-color: white;
-}
-
-.active-paragraph {
+.navigation__paragraph_active {
     background-color: white;
     border: 1px solid #D9FFF5;
+}
+
+.navigation__paragraph:hover {
+    background-color: white;
 }
 
 .text-section {
