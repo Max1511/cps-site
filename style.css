@@ -2,6 +2,7 @@ body {
     margin: 0 0;
     padding: 0 0;
     font-family: "TT Lakes";
+    background-color: #F8F8F8;
 }
 
 /* Header */
@@ -160,10 +161,6 @@ body {
 }
 
 /* Main */
-
-.main {
-    background-color: #F8F8F8;
-}
 
 .title {
     background: url("images/title_mark.svg") no-repeat left;
